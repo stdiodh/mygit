@@ -210,17 +210,35 @@
 
 # print(solution(91, 2))
 
-def solution(num_list):
-    re1=sum(num_list) ** 2
-    re2=1
-    for x in num_list:
-        re2 *= x
-    print(re1, re2)
-    return 1 if re1 > re2 else 0
+# def solution(num_list):
+#     re1=sum(num_list) ** 2
+#     re2=1
+#     for x in num_list:
+#         re2 *= x
+#     print(re1, re2)
+#     return 1 if re1 > re2 else 0
 
-print(solution([5, 7, 8, 3]))
+# print(solution([5, 7, 8, 3]))
 
 # def solution(num_list):
 #     return type(num_list)
 
 # print(solution([3, 4, 5, 2, 1]))
+
+# def solution(n):
+#     answer = []
+#     for x in range(1, n+1):
+#         if n % x == 0:
+#             answer.append(x)
+#     return answer
+
+# print(solution(24))
+
+def solution(num, k):
+    answer = []
+    answer.append(num)
+    for x in answer:
+        print(x)
+    return answer
+
+print(solution(29183, 1))
