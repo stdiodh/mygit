@@ -234,11 +234,39 @@
 
 # print(solution(24))
 
-def solution(num, k):
-    answer = []
-    answer.append(num)
-    for x in answer:
-        print(x)
+# def solution(num, k):
+#     a = str(num).find(str(k))
+#     return (a if a == -1 else a+1)
+
+# print(solution(29183, 1))
+
+# def solution(order):
+#     answer = 0
+#     order = list(str(order))
+#     for i in order:
+#         if i in "369":
+#             answer += 1
+#     return answer
+
+# print(solution(29423))
+
+# def solution(rny_string):
+#     return rny_string.replace('m', 'rn')
+
+# print(solution('masterpiece'))
+
+def solution(num_list):
+    answer = 0
+    for x in range(len(num_list)):
+        if num_list[x] < 0:
+            return x
+        else:
+            answer = -1
     return answer
 
-print(solution(29183, 1))
+
+            
+
+
+
+print(solution([13, 22, 53, 24, 15, 6]))
