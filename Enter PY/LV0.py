@@ -255,18 +255,34 @@
 
 # print(solution('masterpiece'))
 
-def solution(num_list):
-    answer = 0
-    for x in range(len(num_list)):
-        if num_list[x] < 0:
-            return x
-        else:
-            answer = -1
+# def solution(num_list):
+#     answer = 0
+#     for x in range(len(num_list)):
+#         if num_list[x] < 0:
+#             return x
+#         else:
+#             answer = -1
+#     return answer
+
+# print(solution([13, 22, 53, 24, 15, 6]))
+
+
+# def solution(arr, k):
+#     answer = []
+#     for x in range(len(arr)):
+#         if k % 2 == 0:
+#             answer.append(arr[x] + k)
+#         else:
+#             answer.append(arr[x] * k)
+#     return answer
+
+# print(solution([1, 2, 3, 100, 99, 98], 3))
+
+def solution(start, end_num):
+    answer = []
+    for x in range(start, end_num-1, -1):
+        print(x)
+        answer.append(x)
     return answer
 
-
-            
-
-
-
-print(solution([13, 22, 53, 24, 15, 6]))
+print(solution(10,3))
