@@ -278,11 +278,27 @@
 
 # print(solution([1, 2, 3, 100, 99, 98], 3))
 
-def solution(start, end_num):
-    answer = []
-    for x in range(start, end_num-1, -1):
-        print(x)
-        answer.append(x)
+# def solution(start, end_num):
+#     answer = []
+#     for x in range(start, end_num-1, -1):
+#         print(x)
+#         answer.append(x)
+#     return answer
+
+# print(solution(10,3))
+
+def solution(num_list):
+    add = 0
+    mul = 1
+    answer = 0
+    if len(num_list) >= 11:
+        for x in range(len(num_list)):
+            add += num_list[x]
+            answer = add
+    elif 10 >= len(num_list):
+        for x in range(len(num_list)):
+            mul *= num_list[x]
+            answer = mul
     return answer
 
-print(solution(10,3))
+print(solution([3, 4, 5, 2, 5, 4, 6, 7, 3, 7, 2, 2, 1]))
