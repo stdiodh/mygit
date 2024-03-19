@@ -305,6 +305,6 @@
 
 def solution(my_string):
     answer = my_string.lower()
-    return answer.sort()
+    return ''.join(sorted(answer))
 
 print(solution("Bcad"))
