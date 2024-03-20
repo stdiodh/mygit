@@ -1,2 +1,4 @@
 ## Python Basic Syntax practice
-<h5>Programming test Source for Programmers <img class="pythonIcon" src ="https://github-production-user-asset-6210df.s3.amazonaws.com/120657616/314372139-e76b5ad2-3946-4a12-ae2e-43fe55e85296.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240320%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240320T034048Z&X-Amz-Expires=300&X-Amz-Signature=6f6acef94693aafe950c15754f4cbcc3d0500b8c0bb152ac5e6c6d7d4c8244ca&X-Amz-SignedHeaders=host&actor_id=120657616&key_id=0&repo_id=763864478" width = 50px, height = 50px/>
+
+<h5>Programming test Source for Programmers</h5>
+<img class="pythonIcon" src ="https://github-production-user-asset-6210df.s3.amazonaws.com/120657616/314373250-9cc2415b-8205-48c0-baf5-da051c24fe78.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240320%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240320T034844Z&X-Amz-Expires=300&X-Amz-Signature=61deb67bb38bdeb2a526aba9c9b42b1275f7eefd816dce91760b5fe3c2712ed1&X-Amz-SignedHeaders=host&actor_id=120657616&key_id=0&repo_id=763864478" width = 25px, height = 25px/>
