@@ -287,18 +287,31 @@
 
 # print(solution(10,3))
 
-def solution(num_list):
-    add = 0
-    mul = 1
-    answer = 0
-    if len(num_list) >= 11:
-        for x in range(len(num_list)):
-            add += num_list[x]
-            answer = add
-    elif 10 >= len(num_list):
-        for x in range(len(num_list)):
-            mul *= num_list[x]
-            answer = mul
-    return answer
+# def solution(num_list):
+#     add = 0
+#     mul = 1
+#     answer = 0
+#     if len(num_list) >= 11:
+#         for x in range(len(num_list)):
+#             add += num_list[x]
+#             answer = add
+#     elif 10 >= len(num_list):
+#         for x in range(len(num_list)):
+#             mul *= num_list[x]
+#             answer = mul
+#     return answer
 
-print(solution([3, 4, 5, 2, 5, 4, 6, 7, 3, 7, 2, 2, 1]))
+# print(solution([3, 4, 5, 2, 5, 4, 6, 7, 3, 7, 2, 2, 1]))
+
+
+def solution(n):
+    answer = 0
+    for i in range(n+1):
+        c = 0
+        for j in range(1, i+1):
+            if i % j == 0:
+                c += 1
+        if c >= 3:
+            answer += 1
+        
+    return answer
