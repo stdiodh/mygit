@@ -317,9 +317,9 @@ def solution(n):
         
     return answer
 =======
-def solution(my_string):
-    answer = my_string.lower()
-    return ''.join(sorted(answer))
+# def solution(my_string):
+#     answer = my_string.lower()
+#     return ''.join(sorted(answer))
 
-print(solution("Bcad"))
+# print(solution("Bcad"))
 >>>>>>> 32de28ecec9b4cc9dd6deb0700f030bb8c91df54
