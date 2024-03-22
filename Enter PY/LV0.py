@@ -303,6 +303,7 @@
 
 # print(solution([3, 4, 5, 2, 5, 4, 6, 7, 3, 7, 2, 2, 1]))
 
+<<<<<<< HEAD
 
 def solution(n):
     answer = 0
@@ -315,3 +316,10 @@ def solution(n):
             answer += 1
         
     return answer
+=======
+def solution(my_string):
+    answer = my_string.lower()
+    return ''.join(sorted(answer))
+
+print(solution("Bcad"))
+>>>>>>> 32de28ecec9b4cc9dd6deb0700f030bb8c91df54
