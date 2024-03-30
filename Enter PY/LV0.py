@@ -303,23 +303,15 @@
 
 # print(solution([3, 4, 5, 2, 5, 4, 6, 7, 3, 7, 2, 2, 1]))
 
-<<<<<<< HEAD
 
-def solution(n):
-    answer = 0
-    for i in range(n+1):
-        c = 0
-        for j in range(1, i+1):
-            if i % j == 0:
-                c += 1
-        if c >= 3:
-            answer += 1
+# def solution(n):
+#     answer = 0
+#     for i in range(n+1):
+#         c = 0
+#         for j in range(1, i+1):
+#             if i % j == 0:
+#                 c += 1
+#         if c >= 3:
+#             answer += 1
         
-    return answer
-=======
-# def solution(my_string):
-#     answer = my_string.lower()
-#     return ''.join(sorted(answer))
-
-# print(solution("Bcad"))
->>>>>>> 32de28ecec9b4cc9dd6deb0700f030bb8c91df54
+#     return answer
