@@ -88,7 +88,7 @@
 
 # plt.rc('font', family='Malgun Gothic')
 
-# A = 1
+# A = 4
 # tau = 0.5
 # T0 = 1
 # n_values = np.arange(-10, 11)
@@ -105,11 +105,11 @@
 
 # plt.figure(figsize=(10, 6))
 # plt.plot(t, x_pulse.real, color='blue')
-# plt.xlabel('시간')
-# plt.ylabel('주기')
+# plt.xlabel('시간 t')
+# plt.ylabel('주기 v(t)')
 # plt.title('주기 펄스 구형파 신호 분석')
 # plt.grid(True)
-# plt.ylim(-2, 2)
+# plt.ylim(-5, 5)
 # plt.show()
 
 import numpy as np
@@ -128,10 +128,10 @@ def Bn(n):
 def Vn(n, A):
     return (A / (n * np.pi * 1j)) * (1 - np.cos(n * np.pi))
 
-A = 1
+A = 0.5
 n_values = np.arange(-10, 11)
 
-t = np.linspace(-5, 5, 1000)
+t = np.linspace(-0.5, 0.5, 1000)
 
 x_pulse = np.zeros_like(t, dtype=complex)
 
@@ -144,8 +144,8 @@ for n in n_values[n_values % 2 != 0]:
 
 plt.figure(figsize=(10, 6))
 plt.plot(t, x_pulse.real, color='blue')
-plt.xlabel('시간')
-plt.ylabel('주기')
+plt.xlabel('시간 t')
+plt.ylabel('주기 v(t)')
 plt.title('주기 펄스 구형파 함수 분석')
 plt.grid(True)
 plt.show()
