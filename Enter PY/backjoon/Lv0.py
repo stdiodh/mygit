@@ -85,15 +85,58 @@
 # print("mekazon")
 
 #2525
-A, B = input("").split()
-C = int(input(""))
-A = int(A)
-B = int(B)
+# A, B = map(int, input().split())
+# C = int(input())
 
-CHour = int(C // 60)
-CTime = int(C % 60)
-if B + CTime > 60:
-    CHour += 1
-    B -= 60
+# A += C // 60
+# B += C % 60
 
-print(A+CHour, B+CTime, sep=" ")
+# if B >= 60:
+#     A += 1
+#     B -= 60
+# if A >= 24:
+#     A -= 24
+
+# print(A, B)
+
+#2530
+# H, M, S = map(int, input().split())
+# C = int(input())
+
+# S += C
+
+# while S >= 60:
+#     M += 1
+#     S -= 60
+#     if M >= 60:
+#         H += 1
+#         M -= 60
+#     if H >= 24:
+#         H -= 24
+
+# print(H, M, S)
+
+#2914
+# A, I = map(int, input().split())
+
+# print(A*(I-1)+1)
+
+#5355
+# A = int(input())
+# for i in range(A):
+#     j = list(map(str, input().split()))
+#     result = 0
+#     for x in range(len(j)):
+#         if x == 0:
+#             result += float(j[x])
+#         else:
+#             if j[x] == '#':
+#                 result -= 7
+#             elif j[x] == '%':
+#                 result += 5
+#             elif j[x] == '@':
+#                 result *= 3
+#     print(f'{result:.2f}')
+    
+
+#2675
